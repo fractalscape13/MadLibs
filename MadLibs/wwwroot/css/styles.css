@@ -1,0 +1,31 @@
+body, html {
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(black, darkblue, indigo, lavender);
+  color: ivory;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px;
+  margin: 25px;
+}
+
+input {
+  margin: 5px;
+}
+
+button {
+  border: black solid 5px;
+  border-radius: 15px;
+  width: 300px;
+  height: 70px;
+  background-image: radial-gradient(pink, red);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a {
+  color: pink;
+}
